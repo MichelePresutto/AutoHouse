@@ -1,0 +1,692 @@
+myAgent                        Trying to use intention SenseRoomIntention to achieve goal {SenseRoomGoal#0:{}}
+myAgent>SenseRoomIntention#0   Intention started
+myAgent                        Trying to use intention SenseAlarmIntention to achieve goal {SenseAlarmGoal#1:{}}
+myAgent>SenseAlarmIntention#1  Intention started
+myAgent                        Trying to use intention SenseAlarmIntention to achieve goal {SenseAlarmGoal#2:{}}
+myAgent>SenseAlarmIntention#2  Intention started
+myAgent                        Trying to use intention SenseSolarPanelsIntention to achieve goal {SenseSolarPanelsGoal#3:{}}
+myAgent>SenseSolarPanelsIntention#3 Intention started
+myAgent                        Trying to use intention SensePoolIntention to achieve goal {SensePoolGoal#4:{}}
+myAgent>SensePoolIntention#4   Intention started
+myAgent                        Trying to use intention SenseCurtainIntention to achieve goal {SenseCurtainGoal#5:{}}
+myAgent>SenseCurtainIntention#5 Intention started
+myAgent                        Trying to use intention SenseCurtainIntention to achieve goal {SenseCurtainGoal#6:{}}
+myAgent>SenseCurtainIntention#6 Intention started
+myAgent                        Trying to use intention SenseCurtainIntention to achieve goal {SenseCurtainGoal#7:{}}
+myAgent>SenseCurtainIntention#7 Intention started
+myAgent                        Trying to use intention SenseCurtainIntention to achieve goal {SenseCurtainGoal#8:{}}
+myAgent>SenseCurtainIntention#8 Intention started
+bedroom_alarm1 at 8 : 0
+bedroom_alarm2 at 7 : 0
+world                          Belief changed: room kitchen
+world                          Belief changed: room corridor
+world                          Belief changed: room bathroom
+world                          Belief changed: room living_room
+world                          Belief changed: room bedroom
+world                          Belief changed: room child_bedroom
+world                          Belief changed: room guess_bedroom
+world                          Belief changed: room little_bathroom
+world                          Belief changed: linked kitchen living_room
+world                          Belief changed: linked living_room kitchen
+world                          Belief changed: linked corridor living_room
+world                          Belief changed: linked living_room corridor
+world                          Belief changed: linked corridor bathroom
+world                          Belief changed: linked bathroom corridor
+world                          Belief changed: linked bedroom corridor
+world                          Belief changed: linked corridor bedroom
+world                          Belief changed: linked garden outside
+world                          Belief changed: linked outside garden
+world                          Belief changed: linked living_room garden
+world                          Belief changed: linked garden living_room
+world                          Belief changed: robot a3
+world                          Belief changed: in kitchen a3
+a3                             Belief changed: room kitchen
+a3                             Belief changed: room corridor
+a3                             Belief changed: room bathroom
+a3                             Belief changed: room living_room
+a3                             Belief changed: room bedroom
+a3                             Belief changed: room child_bedroom
+a3                             Belief changed: room guess_bedroom
+a3                             Belief changed: room little_bathroom
+a3                             Belief changed: linked kitchen living_room
+a3                             Belief changed: linked living_room kitchen
+a3                             Belief changed: linked corridor living_room
+a3                             Belief changed: linked living_room corridor
+a3                             Belief changed: linked corridor bathroom
+a3                             Belief changed: linked bathroom corridor
+a3                             Belief changed: linked bedroom corridor
+a3                             Belief changed: linked corridor bedroom
+a3                             Belief changed: linked garden outside
+a3                             Belief changed: linked outside garden
+a3                             Belief changed: linked living_room garden
+a3                             Belief changed: linked garden living_room
+a3                             Belief changed: robot a3
+a3                             Belief changed: in kitchen a3
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in bedroom
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in bedroom
+bathroom_curtain curtains are Open
+
+0, 00:15
+0, 00:30
+0, 00:45
+0, 01:00
+0, 01:15
+0, 01:30
+0, 01:45
+0, 02:00
+0, 02:15
+0, 02:30
+0, 02:45
+0, 03:00
+0, 03:15
+0, 03:30
+0, 03:45
+0, 04:00
+0, 04:15
+0, 04:30
+0, 04:45
+0, 05:00
+0, 05:15
+0, 05:30
+0, 05:45
+0, 06:00
+0, 06:15
+0, 06:30
+0, 06:45
+0, 07:00
+Alarm! it's 7 : 0
+myAgent>SenseAlarmIntention#2  senses:  bedroom_alarm2 has rung
+coffe_machine turned on
+coffe_machine: coffe is ready!
+coffe_machine turned off
+bedroom_alarm2 is ringing at 7 : 0
+myAgent>SenseSolarPanelsIntention#3 senses:  solar_panels it's morning, sun is up!
+solar_panelsSolar Panels are On
+
+0, 07:15
+ 
+ James  is moving from bedroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+
+0, 07:30
+ 
+ James  is moving from corridor to bathroom
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in bathroom
+myAgent>SenseCurtainIntention#8 senses:  bathroom_curtain closing curtains for privacy!
+bathroom_curtaincurtains are Close
+
+0, 07:45
+ 
+ James  is moving from bathroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+bathroom_curtain curtains are Open
+
+0, 08:00
+ 
+ James  is moving from corridor to living_room
+
+ 
+ Lily  is moving from bedroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in corridor
+
+Alarm! it's 8 : 0
+myAgent>SenseAlarmIntention#1  senses:  bedroom_alarm1 has rung
+coffe_machine turned on
+coffe_machine: coffe is ready!
+coffe_machine turned off
+bedroom_alarm1 is ringing at 8 : 0
+myAgent>SenseCurtainIntention#5 senses:  bedroom_curtain it's morning, curtains Open!
+bedroom_curtain curtains are Open
+myAgent>SenseCurtainIntention#6 senses:  kitchen_curtain it's morning, curtains Open!
+kitchen_curtain curtains are Open
+myAgent>SenseCurtainIntention#7 senses:  living_room_curtain it's morning, curtains Open!
+living_room_curtain curtains are Open
+
+0, 08:15
+ 
+ James  is moving from living_room to garden
+
+ 
+ Lily  is moving from corridor to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in garden
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+0, 08:30
+ 
+ James  is moving from garden to outside
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in outside
+
+0, 08:45
+ 
+ Lily  is moving from living_room to kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in kitchen
+
+0, 09:00
+ 
+ Lily  is moving from kitchen to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+0, 09:15
+ 
+ Lily  is moving from living_room to garden
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in garden
+
+0, 09:30
+ 
+ Lily  is moving from garden to outside
+a3                             Trying to use intention OnlinePlanning to achieve goal {PddlGoal#9:{goal:["in kitchen a3","not(is-dirty bedroom)","not(is-dirty bathroom)","not(is-dirty living_room)","not(is-dirty kitchen)","not(is-dirty corridor)"]}}
+a3>OnlinePlanning#9            Intention started
+world                          Belief changed: is-dirty bathroom
+world                          Belief changed: is-dirty living_room
+world                          Belief changed: is-dirty kitchen
+a3                             Belief changed: is-dirty bathroom
+a3                             Belief changed: is-dirty living_room
+a3                             Belief changed: is-dirty kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in outside
+
+0, 09:45a3>OnlinePlanning#9            Plan found:
+a3>OnlinePlanning#9            - (clean kitchen a3)
+a3>OnlinePlanning#9            - (move kitchen a3 living_room)
+a3>OnlinePlanning#9            - (clean living_room a3)
+a3>OnlinePlanning#9            - (move living_room a3 corridor)
+a3>OnlinePlanning#9            - (move corridor a3 bathroom)
+a3>OnlinePlanning#9            - (clean bathroom a3)
+a3>OnlinePlanning#9            - (move bathroom a3 corridor)
+a3>OnlinePlanning#9            - (move corridor a3 living_room)
+a3>OnlinePlanning#9            - (move living_room a3 kitchen)
+a3>OnlinePlanning#9            Starting sequential step (Clean kitchen a3) Effect: not is-dirty kitchen,in kitchen a3
+a3>Clean#10                    Intention started
+world                          Clean kitchen a3
+world                          energy consumption 10
+world                          Belief changed: not is-dirty kitchen
+a3                             Belief changed: not is-dirty kitchen
+
+0, 10:00a3>Clean#10                    Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move kitchen a3 living_room) Effect: in living_room a3,not in kitchen a3
+a3>Move#11                     Intention started
+world                          Move kitchen a3 living_room
+world                          energy consumption 11
+world                          Belief changed: in living_room a3
+world                          Belief changed: not in kitchen a3
+a3                             Belief changed: in living_room a3
+a3                             Belief changed: not in kitchen a3
+
+0, 10:15a3>Move#11                     Intention success
+a3>OnlinePlanning#9            Starting sequential step (Clean living_room a3) Effect: not is-dirty living_room,in living_room a3
+a3>Clean#12                    Intention started
+world                          Clean living_room a3
+world                          energy consumption 12
+world                          Belief changed: not is-dirty living_room
+a3                             Belief changed: not is-dirty living_room
+
+0, 10:30a3>Clean#12                    Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move living_room a3 corridor) Effect: in corridor a3,not in living_room a3
+a3>Move#13                     Intention started
+world                          Move living_room a3 corridor
+world                          energy consumption 13
+world                          Belief changed: in corridor a3
+world                          Belief changed: not in living_room a3
+a3                             Belief changed: in corridor a3
+a3                             Belief changed: not in living_room a3
+
+0, 10:45a3>Move#13                     Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move corridor a3 bathroom) Effect: in bathroom a3,not in corridor a3
+a3>Move#14                     Intention started
+world                          Move corridor a3 bathroom
+world                          energy consumption 14
+world                          Belief changed: in bathroom a3
+world                          Belief changed: not in corridor a3
+a3                             Belief changed: in bathroom a3
+a3                             Belief changed: not in corridor a3
+
+0, 11:00a3>Move#14                     Intention success
+a3>OnlinePlanning#9            Starting sequential step (Clean bathroom a3) Effect: not is-dirty bathroom,in bathroom a3
+a3>Clean#15                    Intention started
+world                          Clean bathroom a3
+world                          energy consumption 15
+world                          Belief changed: not is-dirty bathroom
+a3                             Belief changed: not is-dirty bathroom
+
+0, 11:15a3>Clean#15                    Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move bathroom a3 corridor) Effect: in corridor a3,not in bathroom a3
+a3>Move#16                     Intention started
+world                          Move bathroom a3 corridor
+world                          energy consumption 16
+world                          Belief changed: in corridor a3
+world                          Belief changed: not in bathroom a3
+a3                             Belief changed: in corridor a3
+a3                             Belief changed: not in bathroom a3
+
+0, 11:30a3>Move#16                     Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move corridor a3 living_room) Effect: in living_room a3,not in corridor a3
+a3>Move#17                     Intention started
+world                          Move corridor a3 living_room
+world                          energy consumption 17
+world                          Belief changed: in living_room a3
+world                          Belief changed: not in corridor a3
+a3                             Belief changed: in living_room a3
+a3                             Belief changed: not in corridor a3
+
+0, 11:45a3>Move#17                     Intention success
+a3>OnlinePlanning#9            Starting sequential step (Move living_room a3 kitchen) Effect: in kitchen a3,not in living_room a3
+a3>Move#18                     Intention started
+world                          Move living_room a3 kitchen
+world                          energy consumption 18
+world                          Belief changed: in kitchen a3
+world                          Belief changed: not in living_room a3
+a3                             Belief changed: in kitchen a3
+a3                             Belief changed: not in living_room a3
+
+0, 12:00
+0, 12:15
+0, 12:30
+0, 12:45
+0, 13:00
+0, 13:15
+0, 13:30
+0, 13:45
+0, 14:00
+0, 14:15
+0, 14:30
+0, 14:45
+0, 15:00
+ 
+ Lily  is moving from outside to garden
+
+ 
+ James  is moving from outside to garden
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in garden
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in garden
+
+0, 15:15
+ 
+ James  is moving from garden to living_room
+
+ 
+ Lily  is moving from garden to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+0, 15:30
+ 
+ James  is moving from living_room to corridor
+
+ 
+ Lily  is moving from living_room to kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in kitchen
+
+0, 15:45
+ 
+ James  is moving from corridor to bathroom
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in bathroom
+myAgent>SenseCurtainIntention#8 senses:  bathroom_curtain closing curtains for privacy!
+bathroom_curtaincurtains are Close
+myAgent>SensePoolIntention#4   senses:  pool sun is shining
+pool opened the cover
+pool: pool is ready and warm! jump in!
+
+0, 16:00
+ 
+ James  is moving from bathroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+bathroom_curtain curtains are Open
+
+0, 16:15
+ 
+ James  is moving from corridor to living_room
+
+ 
+ Lily  is moving from kitchen to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+0, 16:30
+0, 16:45
+0, 17:00myAgent>SensePoolIntention#4   senses:  pool Bad weither
+pool closed the cover
+
+0, 17:15
+0, 17:30
+0, 17:45
+0, 18:00
+0, 18:15
+0, 18:30
+0, 18:45
+0, 19:00myAgent>SenseSolarPanelsIntention#3 senses:  solar_panels it's night!
+solar_panelsSolar Panels are Off
+
+0, 19:15
+0, 19:30
+ 
+ James  is moving from living_room to kitchen
+
+ 
+ Lily  is moving from living_room to kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in kitchen
+
+ kitchenlight turned on
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in kitchen
+
+0, 19:45
+0, 20:00myAgent>SenseCurtainIntention#5 senses:  bedroom_curtain it's night, curtain closed!
+bedroom_curtaincurtains are Close
+myAgent>SenseCurtainIntention#6 senses:  kitchen_curtain it's night, curtain closed!
+kitchen_curtaincurtains are Close
+myAgent>SenseCurtainIntention#7 senses:  living_room_curtain it's night, curtain closed!
+living_room_curtaincurtains are Close
+myAgent>SenseCurtainIntention#8 senses:  bathroom_curtain it's night, curtain closed!
+bathroom_curtaincurtains are Close
+myAgent>SenseCurtainIntention#5 senses:  bedroom_curtain it's night, curtain closed!
+bedroom_curtainis already Close
+myAgent>SenseCurtainIntention#6 senses:  kitchen_curtain it's night, curtain closed!
+kitchen_curtainis already Close
+myAgent>SenseCurtainIntention#7 senses:  living_room_curtain it's night, curtain closed!
+living_room_curtainis already Close
+bathroom_curtain curtains are Open
+
+0, 20:15
+0, 20:30
+ 
+ James  is moving from kitchen to living_room
+
+ 
+ Lily  is moving from kitchen to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in living_room
+
+ living_roomlight turned on
+
+ kitchenlight turned off
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+0, 20:45
+ 
+ Lily  is moving from living_room to corridor
+
+ 
+ James  is moving from living_room to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in corridor
+
+ corridorlight turned on
+
+ living_roomlight turned off
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+
+0, 21:00
+ 
+ Lily  is moving from corridor to bathroom
+James 	 failed moving from corridor to little_bathroom
+
+ 
+ Lily  is moving from bathroom to corridor
+James 	 failed moving from corridor to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in bathroom
+
+0, 21:15
+0, 21:30
+ 
+ Lily  is moving from corridor to bedroom
+
+ 
+ James  is moving from corridor to bedroom
+Lilychanged alarm to: 9 0
+Jameschanged alarm to: 8 0
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in bedroom
+
+ bedroomlight turned on
+
+ corridorlight turned off
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in bedroom
+
+0, 21:45
+0, 22:00
+0, 22:15
+0, 22:30
+0, 22:45
+0, 23:00
+0, 23:15
+0, 23:30
+0, 23:45
+0, 24:00
+0, 24:15
+0, 24:30
+0, 24:45
+1, 00:00
+1, 00:15
+1, 00:30
+1, 00:45
+1, 01:00
+1, 01:15
+1, 01:30
+1, 01:45
+1, 02:00
+1, 02:15
+1, 02:30
+1, 02:45
+1, 03:00
+1, 03:15
+1, 03:30
+1, 03:45
+1, 04:00
+1, 04:15
+1, 04:30
+1, 04:45
+1, 05:00
+1, 05:15
+1, 05:30
+1, 05:45
+1, 06:00
+1, 06:15
+1, 06:30
+1, 06:45
+1, 07:00myAgent>SenseSolarPanelsIntention#3 senses:  solar_panels it's morning, sun is up!
+solar_panelsSolar Panels are On
+
+1, 07:15
+ 
+ James  is moving from bedroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+
+1, 07:30
+ 
+ James  is moving from corridor to bathroom
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in bathroom
+myAgent>SenseCurtainIntention#8 senses:  bathroom_curtain closing curtains for privacy!
+bathroom_curtaincurtains are Close
+
+1, 07:45
+ 
+ James  is moving from bathroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in corridor
+bathroom_curtain curtains are Open
+
+1, 08:00
+ 
+ James  is moving from corridor to living_room
+
+ 
+ Lily  is moving from bedroom to corridor
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in corridor
+
+Alarm! it's 8 : 0
+myAgent>SenseAlarmIntention#1  senses:  bedroom_alarm1 has rung
+coffe_machine turned on
+coffe_machine: coffe is ready!
+coffe_machine turned off
+bedroom_alarm1 is ringing at 8 : 0
+
+1, 08:15
+ 
+ James  is moving from living_room to garden
+
+ 
+ Lily  is moving from corridor to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in garden
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+1, 08:30
+ 
+ James  is moving from garden to outside
+myAgent>SenseRoomIntention#0   
+ Room sense:James has entered in outside
+
+1, 08:45
+ 
+ Lily  is moving from living_room to kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in kitchen
+
+1, 09:00
+ 
+ Lily  is moving from kitchen to living_room
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in living_room
+
+Alarm! it's 9 : 0
+myAgent>SenseAlarmIntention#2  senses:  bedroom_alarm2 has rung
+coffe_machine turned on
+coffe_machine: coffe is ready!
+coffe_machine turned off
+bedroom_alarm2 is ringing at 9 : 0
+myAgent>SenseCurtainIntention#5 senses:  bedroom_curtain it's morning, curtains Open!
+bedroom_curtain curtains are Open
+myAgent>SenseCurtainIntention#6 senses:  kitchen_curtain it's morning, curtains Open!
+kitchen_curtain curtains are Open
+myAgent>SenseCurtainIntention#7 senses:  living_room_curtain it's morning, curtains Open!
+living_room_curtain curtains are Open
+myAgent>SenseCurtainIntention#5 senses:  bedroom_curtain it's morning, curtains Open!
+bedroom_curtainis already Open
+myAgent>SenseCurtainIntention#6 senses:  kitchen_curtain it's morning, curtains Open!
+kitchen_curtainis already Open
+myAgent>SenseCurtainIntention#7 senses:  living_room_curtain it's morning, curtains Open!
+living_room_curtainis already Open
+
+1, 09:15
+ 
+ Lily  is moving from living_room to garden
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in garden
+
+1, 09:30
+ 
+ Lily  is moving from garden to outside
+a3                             Trying to use intention OnlinePlanning to achieve goal {PddlGoal#19:{goal:["in kitchen a3","not(is-dirty bedroom)","not(is-dirty bathroom)","not(is-dirty living_room)","not(is-dirty kitchen)","not(is-dirty corridor)"]}}
+a3>OnlinePlanning#19           Intention started
+world                          Belief changed: is-dirty bathroom
+world                          Belief changed: is-dirty living_room
+world                          Belief changed: is-dirty kitchen
+a3                             Belief changed: is-dirty bathroom
+a3                             Belief changed: is-dirty living_room
+a3                             Belief changed: is-dirty kitchen
+myAgent>SenseRoomIntention#0   
+ Room sense:Lily has entered in outside
+
+1, 09:45a3>OnlinePlanning#19           Plan found:
+a3>OnlinePlanning#19           - (clean kitchen a3)
+a3>OnlinePlanning#19           - (move kitchen a3 living_room)
+a3>OnlinePlanning#19           - (clean living_room a3)
+a3>OnlinePlanning#19           - (move living_room a3 corridor)
+a3>OnlinePlanning#19           - (move corridor a3 bathroom)
+a3>OnlinePlanning#19           - (clean bathroom a3)
+a3>OnlinePlanning#19           - (move bathroom a3 corridor)
+a3>OnlinePlanning#19           - (move corridor a3 living_room)
+a3>OnlinePlanning#19           - (move living_room a3 kitchen)
+a3>OnlinePlanning#19           Starting sequential step (Clean kitchen a3) Effect: not is-dirty kitchen,in kitchen a3
+a3>Clean#20                    Intention started
+world                          Clean kitchen a3
+world                          energy consumption 34.39
+world                          Belief changed: not is-dirty kitchen
+a3                             Belief changed: not is-dirty kitchen
+
+1, 10:00a3>Move#18                     Intention success
+a3>OnlinePlanning#9            Intention success
+a3                             Succesfully used intention OnlinePlanning to achieve goal {PddlGoal#9:{goal:["in kitchen a3","not(is-dirty bedroom)","not(is-dirty bathroom)","not(is-dirty living_room)","not(is-dirty kitchen)","not(is-dirty corridor)"]}}
+a3>Clean#20                    Intention success
+a3>OnlinePlanning#19           Starting sequential step (Move kitchen a3 living_room) Effect: in living_room a3,not in kitchen a3
+a3>Move#21                     Intention started
+world                          Move kitchen a3 living_room
+world                          energy consumption 35.39
+world                          Belief changed: in living_room a3
+world                          Belief changed: not in kitchen a3
+a3                             Belief changed: in living_room a3
+a3                             Belief changed: not in kitchen a3
+
+1, 10:15a3>Move#21                     Intention success
+a3>OnlinePlanning#19           Starting sequential step (Clean living_room a3) Effect: not is-dirty living_room,in living_room a3
+a3>Clean#22                    Intention started
+world                          Clean living_room a3
+world                          energy consumption 36.39
+world                          Belief changed: not is-dirty living_room
+a3                             Belief changed: not is-dirty living_room
+
+1, 10:30a3>Clean#22                    Intention success
+a3>OnlinePlanning#19           Starting sequential step (Move living_room a3 corridor) Effect: in corridor a3,not in living_room a3
+a3>Move#23                     Intention started
+world                          Move living_room a3 corridor
+world                          energy consumption 37.39
+world                          Belief changed: in corridor a3
+world                          Belief changed: not in living_room a3
+a3                             Belief changed: in corridor a3
+a3                             Belief changed: not in living_room a3
+
+1, 10:45a3>Move#23                     Intention success
+a3>OnlinePlanning#19           Starting sequential step (Move corridor a3 bathroom) Effect: in bathroom a3,not in corridor a3
+a3>Move#24                     Intention started
+world                          Move corridor a3 bathroom
+world                          energy consumption 38.39
+world                          Belief changed: in bathroom a3
+world                          Belief changed: not in corridor a3
+a3                             Belief changed: in bathroom a3
+a3                             Belief changed: not in corridor a3
+
+1, 11:00a3>Move#24                     Intention success
+a3>OnlinePlanning#19           Starting sequential step (Clean bathroom a3) Effect: not is-dirty bathroom,in bathroom a3
+a3>Clean#25                    Intention started
+world                          Clean bathroom a3
+world                          energy consumption 39.39
+world                          Belief changed: not is-dirty bathroom
+a3                             Belief changed: not is-dirty bathroom
+
+1, 11:15
