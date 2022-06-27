@@ -1,4 +1,4 @@
-DOCUMENTATION
+
 
 In the scenario presented for the final assignment there are 2 people(James and Lily) in the house composed by 8 rooms and the garden.
 
